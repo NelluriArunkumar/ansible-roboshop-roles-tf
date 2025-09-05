@@ -1,0 +1,15 @@
+- name: Installing mysql server
+  ansible.builtin.dnf:
+    name: mysql-server
+    state: present
+
+- name: enabling and starting mysql
+  ansible.builtin.service:
+    name: mysqld
+    state: started
+    enabled: yes
+
+- name: setup root password
+  ansible.builtin.command: mysql_secure_installation --set-root-pass RoboShop@1
+  #ansible.builtin.command: mysql_secure_installation --set-root-pass {{ MYSQL_ROOT_PASSWORD }}
+  #above line is used when we are mentioning passoword in vaults.

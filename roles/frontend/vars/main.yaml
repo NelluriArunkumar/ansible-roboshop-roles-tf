@@ -1,0 +1,6 @@
+CATALOGUE_HOST: catalogue.arunkumarnelluri.site
+REDIS_HOST: redis.arunkumarnelluri.site
+USER_HOST: user.arunkumarnelluri.site
+CART_HOST: cart.arunkumarnelluri.site
+SHIPPING_HOST: shipping.arunkumarnelluri.site
+PAYMENT_HOST: payment.arunkumarnelluri.site
