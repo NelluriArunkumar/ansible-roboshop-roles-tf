@@ -1,2 +1,2 @@
-REDIS_HOST: redis.arunkumarnelluri.site
-MONGODB_HOST: mongodb.arunkumarnelluri.site
+REDIS_HOST: redis-{{ env }}.arunkumarnelluri.site
+MONGODB_HOST: mongodb-{{ env }}.arunkumarnelluri.site

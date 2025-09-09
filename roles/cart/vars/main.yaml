@@ -1,2 +1,2 @@
-REDIS_HOST: redis.arunkumarnelluri.site
-CATALOGUE_HOST: catalogue.arunkumarnelluri.site
+REDIS_HOST: redis-{{ env }}.arunkumarnelluri.site
+CATALOGUE_HOST: catalogue.backend-{{ env }}.arunkumarnelluri.site

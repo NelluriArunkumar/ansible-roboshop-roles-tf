@@ -1,5 +1,5 @@
-CART_HOST: cart.arunkumarnelluri.site
-USER_HOST: user.arunkumarnelluri.site
-RABBITMQ_HOST: rabbitmq.arunkumarnelluri.site
+CART_HOST: cart.backend-{{ env }}.arunkumarnelluri.site
+USER_HOST: user.backend-{{ env }}.arunkumarnelluri.site
+RABBITMQ_HOST: rabbitmq-{{ env }}.arunkumarnelluri.site
 RABBITMQ_USER: roboshop
 RABBITMQ_PASSWORD: roboshop123
