@@ -2,5 +2,5 @@ CATALOGUE_HOST: catalogue.backend-{{ env }}.arunkumarnelluri.site
 REDIS_HOST: redis.backend-{{ env }}.arunkumarnelluri.site
 USER_HOST: user.backend-{{ env }}.arunkumarnelluri.site
 CART_HOST: cart.backend-{{ env }}.arunkumarnelluri.site
-SHIPPING_HOST: shipping.abackend-{{ env }}.runkumarnelluri.site
+SHIPPING_HOST: shipping.backend-{{ env }}.runkumarnelluri.site
 PAYMENT_HOST: payment.backend-{{ env }}.arunkumarnelluri.site
